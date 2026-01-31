@@ -1,0 +1,22 @@
+﻿@model ProductCatalog.Models.Product
+@{
+    ViewData["Title"] = "ShowById";
+}
+
+<h1>Product Details</h1>
+<div class="card">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="@Model.ImageUrl" class="img-fluid rounded-start" style="height: 500px; width: auto">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">@Model.ProductName</h5>
+        <p class="card-text">Price: @Model.ProductPrice</p>
+        <p class="card-text">@Model.Description</p>
+        <a href="/Product/ShowAll" class="card-link">Back to All Products</a>
+      </div>
+    </div>
+  </div>
+</div>
+
