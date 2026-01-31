@@ -294,10 +294,11 @@ C:\Users\cczcx\Music\MS\ProductCatalog\obj\Debug\net10.0\staticwebassets.build.j
 C:\Users\cczcx\Music\MS\ProductCatalog\obj\Debug\net10.0\staticwebassets.development.json
 C:\Users\cczcx\Music\MS\ProductCatalog\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 C:\Users\cczcx\Music\MS\ProductCatalog\obj\Debug\net10.0\swae.build.ex.cache
-C:\Users\cczcx\Music\MS\ProductCatalog\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\Users\cczcx\Music\MS\ProductCatalog\obj\Debug\net10.0\ProductC.FCD1102F.Up2Date
 C:\Users\cczcx\Music\MS\ProductCatalog\obj\Debug\net10.0\ProductCatalog.dll
 C:\Users\cczcx\Music\MS\ProductCatalog\obj\Debug\net10.0\refint\ProductCatalog.dll
 C:\Users\cczcx\Music\MS\ProductCatalog\obj\Debug\net10.0\ProductCatalog.pdb
 C:\Users\cczcx\Music\MS\ProductCatalog\obj\Debug\net10.0\ProductCatalog.genruntimeconfig.cache
 C:\Users\cczcx\Music\MS\ProductCatalog\obj\Debug\net10.0\ref\ProductCatalog.dll
+C:\Users\cczcx\Music\MS\ProductCatalog\obj\Debug\net10.0\ProductCatalog.sourcelink.json
+C:\Users\cczcx\Music\MS\ProductCatalog\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt

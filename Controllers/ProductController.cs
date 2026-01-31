@@ -17,7 +17,12 @@ namespace ProductCatalog.Controllers
 
         public IActionResult ShowById(int id)
         {
-            return View(ProductBL.GetProductById(id));
+            var product = ProductBL.GetProductById(id);
+            if (product == null)
+            {
+                return NotFound();
+            }
+            return View(product);
         }
     }
 }
