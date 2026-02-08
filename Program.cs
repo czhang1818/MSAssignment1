@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using ProductCatalog.Data;
+
 namespace ProductCatalog
 {
     public class Program
@@ -8,6 +11,9 @@ namespace ProductCatalog
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+
+            builder.Services.AddDbContext<AppDbContext>(options =>
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             var app = builder.Build();
 
